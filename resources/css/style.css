@@ -34,6 +34,18 @@ section {
     margin-left: 15%;
 }
 
+.box p {
+    font-size: 90%;
+    line-height: 145%;
+}
+/*-----ICONs-----*/
+.icon-big {
+    font-size: 300%;
+    display: block;
+    color: #e67e22;
+    margin-bottom: 20px;
+    text-align: center;
+}
 /*-----Header-----*/
 
 header {

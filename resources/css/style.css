@@ -81,6 +81,31 @@ header {
     float: left;
     margin-top: 20px;
 }
+/*Stick nav */
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    z-index: 9999;
+}
+
+.sticky .main-nav li a:link, .sticky .main-nav li a:visited {
+    padding: 8px 0;
+    color: #555;
+}
+
+.sticky .main-nav {
+    margin-top: 10px;
+    margin-bottom: 9px;
+    padding-top: 15px;
+}
+
+.sticky .logo {
+    height: 60px;
+    margin: 5px 0;
+}
 
 .main-nav {
     float: right;

@@ -133,6 +133,18 @@ header {
     border-bottom: 2px solid #e67e22;
 }
 
+.mobile-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-icon i {
+    font-size: 200%;
+    color: #fff;
+}
+
 /*-----Btn-----*/
 .btn:link, .btn:visited, input[type=submit] {
     display: inline-block;

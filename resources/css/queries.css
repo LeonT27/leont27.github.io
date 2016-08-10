@@ -10,7 +10,55 @@
     section {padding: 30px 0;}
     .row, .hero-text-box {padding: 0 4%; }
     .col {width: 100%; margin: 0 0 4% 0;}
-    .main-nav {display: none;}
+    /*.main-nav {display: none;}*/
+    .mobile-icon {
+        display: inline-block;
+        
+    }
+    
+    .main-nav {
+        float: left;
+        margin-top: 25px;
+        margin-left: 35px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link, .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    .sticky {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.95);
+        z-index: 9999;
+    }
+
+    .sticky .main-nav li a:link, .sticky .main-nav li a:visited {
+        padding: 8px 0;
+    }
+
+    .sticky .main-nav {
+        margin-top: 5px;
+        margin-bottom: 9px;
+        padding-top: 0px;
+    }
+    
+    .sticky .mobile-icon i {
+        margin-top: 10px;
+    }
+    .sticky .mobile-icon i {
+        color: #000;
+    }
+    
     h1 {font-size: 180%;}
     h2 {font-size: 150%;}
     .long-copy {

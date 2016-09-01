@@ -2,7 +2,7 @@
 	"name": "Richi Food",
 	"icons": [
 		{
-			"src": "C:\\Users\\Juan M. Tolentino\\Desktop\\GIT\\leont27.github.io\\resources\\favicon\/android-chrome-192x192.png",
+			"src": "\/android-chrome-192x192.png",
 			"sizes": "192x192",
 			"type": "image\/png"
 		}
